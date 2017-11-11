@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\wamp\www\ESOFT.clpprj">
+	<settings><PM_URL><![CDATA[D:/phpproject/]]></PM_URL><PM_HOME_URL><![CDATA[D:/phpproject/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\wamp\www\index.php"/>
+		<file name="C:\wamp\www\views\regcom.php"/>
+		<file name="C:\wamp\www\controller\regcom.php"/>
+		<file name="C:\wamp\www\classes\database.php"/>
+		<file name="C:\wamp\www\Esoft\cn.json"/>
+	</lastopfiles>
+	<todoblock>
+	</todoblock>
+	<filescache>
+		<file name="C:\wamp\www\views\user_login.php" crc="1509633111"/>
+		<file name="C:\wamp\www\views\regcom.php" crc="1509971120"/>
+		<file name="C:\wamp\www\views\header.php" crc="1509731416"/>
+		<file name="C:\wamp\www\views\footer.php" crc="1509726932"/>
+		<file name="C:\wamp\www\js\myjs.js" crc="1509729419"/>
+		<file name="C:\wamp\www\js\materialize.min.js" crc="1503757428"/>
+		<file name="C:\wamp\www\js\materialize.js" crc="1503757428"/>
+		<file name="C:\wamp\www\js\jquery.js" crc="1504617699"/>
+		<file name="C:\wamp\www\js\jquery-3.2.1.min.js" crc="1505795230"/>
+		<file name="C:\wamp\www\css\mystyle.css" crc="1509729435"/>
+		<file name="C:\wamp\www\css\materialize.min.css" crc="1503757428"/>
+		<file name="C:\wamp\www\css\materialize.css" crc="1503757428"/>
+		<file name="C:\wamp\www\controller\sample.php" crc="1509975912"/>
+		<file name="C:\wamp\www\controller\regcom.php" crc="1510328851"/>
+		<file name="C:\wamp\www\config\database.php" crc="1509973900"/>
+		<file name="C:\wamp\www\classes\database.php" crc="1510323891"/>
+		<file name="C:\wamp\www\index.php" crc="1510157800"/>
+		<file name="C:\wamp\www\configuration.txt" crc="1510323643"/>
+	</filescache>
+</project>

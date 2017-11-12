@@ -38,16 +38,21 @@ spl_autoload_register(function ($class){
 		
 		$obj->db_query($sql = "CREATE USER '$cnusername'@'$dbservername' IDENTIFIED BY '$cnpassword';");
 		
-		//$obj->db_query($sql = "GRANT SELECT,INSERT,UPDATE ON *.* TO '$cnusername'@'%' identified by '$cnpassword';");
+		$obj->db_query($sql = "GRANT SELECT,INSERT,UPDATE ON *.* TO '$cnusername'@'$dbservername' identified by '$cnpassword';");
 		
 		$obj->db_query($sql = "USE $dbname; CREATE TABLE IF NOT EXISTS users(user_id INT(11) AUTO_INCREMENT PRIMARY KEY,user_fname VARCHAR(25),user_lname VARCHAR(25),user_type INT(11) NOT NULL,user_email VARCHAR(50),user_create DATE,user_update DATE)");
-
+		
+		
+		$stmt = $obj->conn->prepare();
+		
+		$obj->conn = NULL;
 
 		if(!file_exists($_SERVER['DOCUMENT_ROOT']."/Esoft")){
 			mkdir($_SERVER['DOCUMENT_ROOT']."/Esoft/");
 			$cn = fopen($_SERVER['DOCUMENT_ROOT']."/Esoft/cn.json","w");
 			$cnarray = array(
 			"dbtype"=>$dbtype,
+			"servername"=>$dbservername,
 			"dbname"=>$dbname,
 			"dbusername"=>$dbusername,
 			"dbuserpass"=>$dbuserpassword,
@@ -66,4 +71,5 @@ spl_autoload_register(function ($class){
 			fclose($cn);
 		}
 				
+		header('Location:'.'../views/user_login.php');
 ?>

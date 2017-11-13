@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\ESOFT.clpprj">
-	<settings><PM_URL><![CDATA[D:/phpproject/]]></PM_URL><PM_HOME_URL><![CDATA[D:/phpproject/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\wamp\www\index.php"/>
-		<file name="C:\wamp\www\views\regcom.php"/>
-		<file name="C:\wamp\www\controller\regcom.php"/>
+	<settings><PM_URL><![CDATA[D:/phpproject/]]></PM_URL><PM_HOME_URL><![CDATA[D:/phpproject/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value="C:\wamp\www\config\database;"/><lastopfiles>
 		<file name="C:\wamp\www\classes\database.php"/>
-		<file name="C:\wamp\www\Esoft\cn.json"/>
-		<file name="C:\wamp\www\views\user_login.php"/>
-		<file name="C:\wamp\www\controller\users.php"/>
+		<file name="C:\wamp\www\index.php"/>
 		<file name="C:\wamp\www\classes\users.php"/>
+		<file name="C:\wamp\www\config\database"/>
 	</lastopfiles>
 	<todoblock>
 	</todoblock>
 	<filescache>
 		<file name="C:\wamp\www\views\user_login.php" crc="1510398423"/>
-		<file name="C:\wamp\www\views\regcom.php" crc="1509971120"/>
-		<file name="C:\wamp\www\views\header.php" crc="1510387864"/>
-		<file name="C:\wamp\www\views\footer.php" crc="1509726932"/>
+		<file name="C:\wamp\www\views\regcom.php" crc="1510567579"/>
+		<file name="C:\wamp\www\views\header.php" crc="1510571657"/>
+		<file name="C:\wamp\www\views\footer.php" crc="1510571678"/>
 		<file name="C:\wamp\www\js\myjs.js" crc="1509729419"/>
 		<file name="C:\wamp\www\js\materialize.min.js" crc="1503757428"/>
 		<file name="C:\wamp\www\js\materialize.js" crc="1503757428"/>
@@ -25,13 +21,15 @@
 		<file name="C:\wamp\www\css\mystyle.css" crc="1510387765"/>
 		<file name="C:\wamp\www\css\materialize.min.css" crc="1503757428"/>
 		<file name="C:\wamp\www\css\materialize.css" crc="1503757428"/>
-		<file name="C:\wamp\www\controller\users.php" crc="1510402306"/>
+		<file name="C:\wamp\www\controller\users.php" crc="1510566372"/>
 		<file name="C:\wamp\www\controller\sample.php" crc="1509975912"/>
-		<file name="C:\wamp\www\controller\regcom.php" crc="1510411355"/>
-		<file name="C:\wamp\www\config\database.php" crc="1509973900"/>
-		<file name="C:\wamp\www\classes\users.php" crc="1510411281"/>
-		<file name="C:\wamp\www\classes\database.php" crc="1510424278"/>
-		<file name="C:\wamp\www\index.php" crc="1510157800"/>
+		<file name="C:\wamp\www\controller\regcom.php" crc="1510568052"/>
+		<file name="C:\wamp\www\config\database" crc="1510569470"/>
+		<file name="C:\wamp\www\classes\users.php" crc="1510579467"/>
+		<file name="C:\wamp\www\classes\session.php" crc="1510510529"/>
+		<file name="C:\wamp\www\classes\database.php" crc="1510584095"/>
+		<file name="C:\wamp\www\index_home.php" crc="1510566459"/>
+		<file name="C:\wamp\www\index.php" crc="1510571692"/>
 		<file name="C:\wamp\www\configuration.txt" crc="1510323643"/>
 	</filescache>
 </project>

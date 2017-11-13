@@ -44,7 +44,7 @@
       </div>
     </li>
   </ul>
-  <input type="submit" class="waves-effect waves-light btn" />
+  <input type="submit" name="submit" id="submit" class="waves-effect waves-light btn" />
   
   </form>
  </div>	

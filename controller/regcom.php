@@ -3,28 +3,35 @@ spl_autoload_register(function ($class){
 	include '../classes/'.$class.'.php';
 	include '../config/'.$class.'.php';	
 });
+	var_dump($_REQUEST);
 
-	//get database configuration data
-		$data = array();
-		$cf = '../configuration.txt';
-		$hcf = fopen($cf,'r');
-		if($hcf){
-		 $data  = explode(',',fread($hcf,filesize($cf)));
-		}else{
-			echo "file not open";
-		}		
-
+	if(!isset($_REQUEST['submit'])){
+		echo "ERROR: FORM NOT SUBMITTED";
+		die();
+	}
+	
+	$conf_file = '../configuration.txt';
+	$data = file_get_contents('../configuration.txt');
+	
+	$data = explode(',',$data);
+	
+	var_dump($data);
+	
 		$dbtype = $data[0];
 		$dbservername = $data[1];
 		$dbname = $data[4];
 		$dbusername = $data[2];
 		$dbuserpassword = $data[3];
-//get form data		
 		$cnname = $_REQUEST["company_name"];
 		$cnphone = $_REQUEST["company_phone"];
 		$cnemail = $_REQUEST["company_email"];
 		$cnusername = $_REQUEST["user_name"];
 		$cnpassword = $_REQUEST["user_password"];
+	
+	
+	
+	die();	
+		
 		
 		
 		

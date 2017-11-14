@@ -1,3 +1,14 @@
+<?php 
+spl_autoload_register(function ($class){
+	require_once '../classes/'.$class.'.php';	
+});
+$session = new Session();
+	if($session->is_signed_in()){
+		
+		header("Location: ../index.php");
+		
+	}
+?>
 <?php include 'header.php'; ?>
 <div class="container">
      <div class="row">

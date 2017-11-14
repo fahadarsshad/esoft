@@ -1,9 +1,18 @@
 <?php 
 spl_autoload_register(function ($class){
-	include 'classes/'.$class.'.php';
-	include 'config/'.$class.'.php';	
+	require_once 'classes/'.$class.'.php';	
 });
 ?>
 <?php include_once('views/header.php'); ?>
-<h1>This is Home Company Page</h1>
+<?php include_once('views/too_bar.php'); ?>
+<?php include_once('views/side_nav.php'); ?>
+<?php 
+  	$session = new Session();
+	if(!$session->is_signed_in()){
+		
+		header("Location: views/user_login.php");
+		
+	}
+   
+?>
 <?php include_once('views/footer.php'); ?>

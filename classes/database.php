@@ -10,26 +10,39 @@ class Database{
 	}	
 	
 	public function open_db_connection(){
-		try{
-			$this->connection = new PDO(DB_TYPE.":host=".DB_HOST, DB_USER, DB_PASS);
-			$this->connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-			echo "Connection Established";
-		}catch(PDOException $e){
-			echo $e->getMessage()."Please Install Database on Your System";
-			die();
+		$this->connection = mysqli_connect(DB_HOST,DB_USER,DB_PASS,DB_NAME);
+		
+		if($this->connection->connect_errno){
+			die("Database Connection failed ".$this->connection->connect_errno);
 		}
 	}
+	
+	public function query($sql){
+		$result = $this->connection->query($sql);
+		
+		$this->confirm_query($result);
+		return $result;
+	}
+	
+	private function confirm_query($result){
+		
+		if(!$result){
+			die("Query Failed ". $this->connection->error);
+		}
+	}
+	
+	public function escap_string($string){
+		
+		$escaped_string = $this->connection->real_escape_string($string);
+		return $escaped_string;
+		
+	}
+	
+	public function the_insert_id(){
+		return $this->connection->insert_id;
+	}
 }
-		$database = new Database();
-		try{
-			$stmt = $database->connection->prepare('USE esoft;SELECT user_name,user_pass FROM users LIMIT 1');
-			$stmt->execute();
-			$stmt->setFetchMode(PDO::FETCH_ASSOC);	
-			while($row = $stmt->fetch()){
-				
-				}
-			}catch(PDOException $e){
-				echo "ERROR";
-				$e->getMessage();
-			}
+	
+
+$database = new Database(); 
 ?>

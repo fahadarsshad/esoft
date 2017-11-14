@@ -1,18 +1,22 @@
 <codestructure version="5.11">
 <phptree>
-<treenode node="../classes/;PHP:PHP Include;C:\wamp\www\controller\users.php;f12;2;23;2;;C:\wamp\www\controller\regcom.php;f10;2;21;2;;C:\wamp\www\classes\users.php;f10;2;21;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
-</treenode>
-<treenode node="../config/;PHP:PHP Include;C:\wamp\www\controller\regcom.php;f10;3;20;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="../classes/;PHP:PHP Include;C:\wamp\www\views\user_login.php;f15;2;26;2;;C:\wamp\www\views\Codelobster0.php;f10;2;21;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="../config/database;PHP:PHP Include;C:\wamp\www\classes\database.php;f14;1;32;1;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="classes/;PHP:PHP Include;C:\wamp\www\index_home.php;f10;2;18;2;;C:\wamp\www\index.php;f10;2;18;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="..classes/;PHP:PHP Include;C:\wamp\www\classes\users.php;f10;2;20;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../classes/;PHP:PHP Include;C:\wamp\www\controller\regcom.php;f10;2;21;2;;C:\wamp\www\controller\users.php;f10;2;21;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="../config/;PHP:PHP Include;C:\wamp\www\controller\regcom.php;f10;3;20;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="classes/;PHP:PHP Include;C:\wamp\www\index_home.php;f10;2;18;2;;C:\wamp\www\index.php;f15;2;23;2;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="COM_ADDR;PHP:PHP Word;C:\wamp\www\config\database;f8;7;16;7;;;;vpos;;v;;r&apos;KARIM BLOCK LAHORE&apos;;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="COM_NAME;PHP:PHP Word;C:\wamp\www\config\database;f8;6;16;6;;;;vpos;;v;;r&apos;FAST FORWARD&apos;;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="config/;PHP:PHP Include;C:\wamp\www\index_home.php;f10;3;17;3;;C:\wamp\www\index.php;f10;3;17;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="config/;PHP:PHP Include;C:\wamp\www\index_home.php;f10;3;17;3;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="DATABASE_NAME;PHP:PHP Word;C:\wamp\www\ESOFT\config\Codelobster0.php;f8;1;21;1;;;;vpos;;v;;r&quot;ESOFT&quot;;;d-1,-1;;b0,0;;m">
 </treenode>
@@ -26,9 +30,9 @@
 </treenode>
 <treenode node="DB_USER;PHP:PHP Word;C:\wamp\www\config\database;f8;3;15;3;;;;vpos;;v;;r&apos;root&apos;;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="footer.php;PHP:PHP Include;C:\wamp\www\ESOFT\views\Codelobster0.php;f15;51;25;51;;C:\wamp\www\views\user_login.php;f15;18;25;18;;C:\wamp\www\views\regcom.php;f15;54;25;54;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="footer.php;PHP:PHP Include;C:\wamp\www\ESOFT\views\Codelobster0.php;f15;51;25;51;;C:\wamp\www\views\regcom.php;f15;54;25;54;;C:\wamp\www\views\user_login.php;f15;29;25;29;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="header.php;PHP:PHP Include;C:\wamp\www\ESOFT\views\Codelobster0.php;f15;0;25;0;;C:\wamp\www\views\user_login.php;f15;0;25;0;;C:\wamp\www\views\regcom.php;f15;0;25;0;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="header.php;PHP:PHP Include;C:\wamp\www\ESOFT\views\Codelobster0.php;f15;0;25;0;;C:\wamp\www\views\regcom.php;f15;0;25;0;;C:\wamp\www\views\user_login.php;f15;11;25;11;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="LOGIN_PASSWORD;PHP:PHP Word;C:\wamp\www\ESOFT\config\Codelobster0.php;f8;6;22;6;;;;vpos;;v;;r&quot;admin&quot;;;d-1,-1;;b0,0;;m">
 </treenode>
@@ -40,38 +44,64 @@
 </treenode>
 <treenode node="USER_PASSWORD;PHP:PHP Word;C:\wamp\www\ESOFT\config\Codelobster0.php;f8;4;21;4;;;;vpos;;v;;r&quot;&quot;;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="views/footer.php;PHP:PHP Include;C:\wamp\www\index.php;f20;8;36;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="views/footer.php;PHP:PHP Include;C:\wamp\www\index.php;f20;17;36;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
-<treenode node="views/header.php;PHP:PHP Include;C:\wamp\www\index.php;f20;6;36;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+<treenode node="views/header.php;PHP:PHP Include;C:\wamp\www\index.php;f20;5;36;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="views/side_nav.php;PHP:PHP Include;C:\wamp\www\index.php;f20;7;38;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+</treenode>
+<treenode node="views/too_bar.php;PHP:PHP Include;C:\wamp\www\index.php;f20;6;37;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 </treenode>
 <treenode node="Company;PHP:Class Name;C:\wamp\www\ESOFT\classes\Codelobster0.php;f0;1;1;3;;;;vpos;;v;;r;;d13,1;;b0,0;;m">
 </treenode>
-<treenode node="Database;PHP:Class Name;C:\wamp\www\classes\database.php;f0;3;1;21;;;;vpos;;v;;r;;d14,3;;b0,0;;m">
+<treenode node="Database;PHP:Class Name;C:\wamp\www\classes\database.php;f0;3;1;43;;;;vpos;;v;;r;;d14,3;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;C:\wamp\www\classes\database.php;f1;7;2;9;;;;vpos;;v;;r;;d23,7;;b0,0;;m">
 </treenode>
-<treenode node="open_db_connection;PHP:Function Name;C:\wamp\www\classes\database.php;f8;11;2;20;;;;vpos;;v;;r;;d37,11;;b1,0;;m">
+<treenode node="confirm_query;PHP:Function Name;C:\wamp\www\classes\database.php;f9;26;2;31;;;;vpos;;v;;r;;d40,26;;b3,0;;mresult;;p">
+</treenode>
+<treenode node="escap_string;PHP:Function Name;C:\wamp\www\classes\database.php;f8;33;2;38;;;;vpos;;v;;r;;d38,33;;b1,0;;mstring;;p">
+</treenode>
+<treenode node="open_db_connection;PHP:Function Name;C:\wamp\www\classes\database.php;f8;11;2;17;;;;vpos;;v;;r;;d37,11;;b1,0;;m">
+</treenode>
+<treenode node="query;PHP:Function Name;C:\wamp\www\classes\database.php;f8;19;2;24;;;;vpos;;v;;r;;d28,19;;b1,0;;msql;;p">
+</treenode>
+<treenode node="the_insert_id;PHP:Function Name;C:\wamp\www\classes\database.php;f8;40;2;42;;;;vpos;;v;;r;;d32,40;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="Session;PHP:Class Name;C:\wamp\www\classes\Codelobster0.php;f0;2;1;39;;C:\wamp\www\classes\session.php;f0;2;1;39;;;;vpos;;v;;r;;d13,2;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f1;6;2;9;;C:\wamp\www\classes\session.php;f1;6;2;9;;;;vpos;;v;;r;;d23,6;;b0,0;;m">
+<treenode node="Session;PHP:Class Name;C:\wamp\www\classes\Codelobster0.php;f0;2;1;39;;C:\wamp\www\classes\session.php;f0;2;1;70;;;;vpos;;v;;r;;d13,2;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f1;6;2;9;;C:\wamp\www\classes\session.php;f1;7;2;13;;;;vpos;;v;;r;;d23,7;;b0,0;;m">
 </treenode>
-<treenode node="check_the_login;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f9;30;2;38;;C:\wamp\www\classes\session.php;f9;30;2;38;;;;vpos;;v;;r;;d35,30;;b3,0;;m">
+<treenode node="check_message;PHP:Function Name;C:\wamp\www\classes\session.php;f8;58;2;69;;;;vpos;;v;;r;;d32,58;;b1,0;;m">
 </treenode>
-<treenode node="is_signed_in;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f8;12;2;14;;C:\wamp\www\classes\session.php;f8;12;2;14;;;;vpos;;v;;r;;d31,12;;b1,0;;m">
+<treenode node="check_the_login;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f9;30;2;38;;C:\wamp\www\classes\session.php;f9;36;2;44;;;;vpos;;v;;r;;d35,36;;b3,0;;m">
 </treenode>
-<treenode node="login;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f8;16;2;22;;C:\wamp\www\classes\session.php;f8;16;2;22;;;;vpos;;v;;r;;d29,16;;b1,0;;muser;;p">
+<treenode node="is_signed_in;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f8;12;2;14;;C:\wamp\www\classes\session.php;f8;16;2;18;;;;vpos;;v;;r;;d31,16;;b1,0;;m">
 </treenode>
-<treenode node="logout;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f8;24;2;28;;C:\wamp\www\classes\session.php;f8;24;2;28;;;;vpos;;v;;r;;d25,24;;b1,0;;m">
+<treenode node="login;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f8;16;2;22;;C:\wamp\www\classes\session.php;f8;20;2;26;;;;vpos;;v;;r;;d29,20;;b1,0;;muser;;p">
+</treenode>
+<treenode node="logout;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f8;24;2;28;;C:\wamp\www\classes\session.php;f8;28;2;34;;;;vpos;;v;;r;;d25,28;;b1,0;;m">
+</treenode>
+<treenode node="message;PHP:Function Name;C:\wamp\www\classes\session.php;f8;46;2;56;;;;vpos;;v;;r;;d33,46;;b1,0;;mmsg;;p">
 </treenode>
 </treenode>
-<treenode node="Users;PHP:Class Name;C:\wamp\www\controller\Codelobster0.php;f0;1;1;9;;C:\wamp\www\classes\users.php;f0;5;1;17;;;;vpos;;v;;r;;d11,5;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f1;6;2;8;;C:\wamp\www\classes\users.php;f1;6;2;8;;C:\wamp\www\classes\users.php;f1;6;2;8;;C:\wamp\www\classes\users.php;f1;6;2;8;;;;vpos;;v;;r;;d23,6;;b0,0;;m">
+<treenode node="Users;PHP:Class Name;C:\wamp\www\controller\Codelobster0.php;f0;1;1;9;;C:\wamp\www\classes\users.php;f0;5;1;109;;;;vpos;;v;;r;;d11,5;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\classes\Codelobster0.php;f1;6;2;8;;C:\wamp\www\classes\users.php;f1;14;2;16;;C:\wamp\www\classes\users.php;f1;14;2;16;;C:\wamp\www\classes\users.php;f1;14;2;16;;C:\wamp\www\classes\users.php;f1;14;2;16;;C:\wamp\www\classes\users.php;f1;14;2;16;;;;vpos;;v;;r;;d23,14;;b0,0;;m">
 </treenode>
 <treenode node="__contractor;PHP:Function Name;C:\wamp\www\controller\Codelobster0.php;f1;2;2;4;;C:\wamp\www\controller\users.php;f1;2;2;4;;;;vpos;;v;;r;;d24,2;;b0,0;;m">
 </treenode>
-<treenode node="find_all_users;PHP:Function Name;C:\wamp\www\classes\users.php;f8;10;2;16;;;;vpos;;v;;r;;d33,10;;b1,0;;m">
+<treenode node="find_all_users;PHP:Function Name;C:\wamp\www\classes\users.php;f15;18;2;22;;C:\wamp\www\classes\users.php;f15;18;2;22;;;;vpos;;v;;r;;d40,18;;b1,5;;m">
+</treenode>
+<treenode node="find_this_query;PHP:Function Name;C:\wamp\www\classes\users.php;f15;45;2;59;;C:\wamp\www\classes\users.php;f15;45;2;59;;;;vpos;;v;;r;;d45,45;;b1,5;;msql;;p">
+</treenode>
+<treenode node="find_user_by_id;PHP:Function Name;C:\wamp\www\classes\users.php;f15;24;2;43;;C:\wamp\www\classes\users.php;f15;24;2;43;;;;vpos;;v;;r;;d49,24;;b1,5;;muser_id;;p">
+</treenode>
+<treenode node="has_the_attribute;PHP:Function Name;C:\wamp\www\classes\users.php;f9;107;2;112;;C:\wamp\www\classes\users.php;f9;103;2;108;;;;vpos;;v;;r;;d51,103;;b3,0;;mthe_attribute;;p">
+</treenode>
+<treenode node="instantation;PHP:Function Name;C:\wamp\www\classes\users.php;f15;82;2;105;;C:\wamp\www\classes\users.php;f15;78;2;101;;;;vpos;;v;;r;;d49,78;;b1,5;;mthe_record;;p">
 </treenode>
 <treenode node="user_login;PHP:Function Name;C:\wamp\www\controller\Codelobster0.php;f8;6;2;8;;C:\wamp\www\controller\users.php;f8;6;2;8;;C:\wamp\www\classes\Codelobster0.php;f8;10;2;50;;;;vpos;;v;;r;;d51,10;;b1,0;;muser_name;;puser_pass;;p">
+</treenode>
+<treenode node="verify_user;PHP:Function Name;C:\wamp\www\classes\users.php;f15;61;2;76;;;;vpos;;v;;r;;d58,61;;b1,5;;muser_name;;puser_pass;;p">
 </treenode>
 </treenode>
 </phptree>

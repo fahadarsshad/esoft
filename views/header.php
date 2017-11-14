@@ -7,8 +7,8 @@
 		<meta name="keywords" content="html,css,php,javascript,jquery" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 		<link href="../css/materialize.css" rel="stylesheet" type="text/css" />
-		<link href="../css/mystyle.css" rel="stylesheet" type="text/css" />
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
 		<style>
 			::-webkit-input-placeholder { /* WebKit, Blink, Edge */
    	 			color:    #909;
@@ -29,5 +29,5 @@
 			}
 		</style>
 	</head>
-	<body onload="init()">
+	<body>
 	<h4>This is Header</h4>

@@ -11,10 +11,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 if (typeof jQuery === 'undefined') {
   // Check if require is a defined function.
   if (typeof require === 'function') {
-    var jQuery = $ = require('jquery');
+    jQuery = $ = require('jquery');
     // Else use the dollar sign alias.
   } else {
-    var jQuery = $;
+    jQuery = $;
   }
 }
 ; /*

@@ -2154,568 +2154,112 @@
 <treenode node="show_php_error;PHP:Function Name;C:\wamp\www\system\core\Exceptions.php;f8;235;2;271;;;;vpos;;vvoid;;r Definition     show_php_error($severity, $message, $filepath, $line)  Description      Native PHP error handler  Parameters:     int $severity - Error level     string $message - Error message     string $filepath - File path     int $line - Line number;;d1,236;;b1,0;;mint $severity;;pstring $message;;pstring $filepath;;pint $line;;p">
 </treenode>
 </treenode>
-<treenode node="CI_Form_validation;PHP:Class Name;C:\wamp\www\system\libraries\Form_validation.php;f0;48;1;1583;;;;vpos;;v;;r
-Definition
-    class CI_Form_validation
-
-Description
-     Form Validation Class;;d25,48;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;126;2;149;;;;vpos;;vvoid;;r
-Definition
-    __construct($rules = array())
-
-Description
-     Initialize Form_Validation class
-
-Parameters:
-    array $rules;;d1,127;;b1,0;;marray $rules;;p">
+<treenode node="CI_Form_validation;PHP:Class Name;C:\wamp\www\system\libraries\Form_validation.php;f0;48;1;1583;;;;vpos;;v;;r Definition     class CI_Form_validation  Description      Form Validation Class;;d25,48;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;126;2;149;;;;vpos;;vvoid;;r Definition     __construct($rules = array())  Description      Initialize Form_Validation class  Parameters:     array $rules;;d1,127;;b1,0;;marray $rules;;p">
 </treenode>
-<treenode node="_build_error_msg;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;886;2;895;;;;vpos;;vstring;;r
-Definition
-    _build_error_msg($line, $field = &apos;&apos;, $param = &apos;&apos;)
-
-Description
-     Build an error message using the field and param.
-
-Parameters:
-    string - The error message line
-    string - A field&apos;s human name
-    mixed - A rule&apos;s optional parameter;;d1,887;;b2,0;;mstring;;pstring;;pmixed;;p">
+<treenode node="_build_error_msg;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;886;2;895;;;;vpos;;vstring;;r Definition     _build_error_msg($line, $field = &apos;&apos;, $param = &apos;&apos;)  Description      Build an error message using the field and param.  Parameters:     string - The error message line     string - A field&apos;s human name     mixed - A rule&apos;s optional parameter;;d1,887;;b2,0;;mstring;;pstring;;pmixed;;p">
 </treenode>
-<treenode node="_execute;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;623;2;820;;;;vpos;;vmixed;;r
-Definition
-    _execute($row, $rules, $postdata = NULL, $cycles = 0)
-
-Description
-     Executes the Validation routines
-
-Parameters:
-    array
-    array
-    mixed
-    int;;d1,624;;b2,0;;marray;;parray;;pmixed;;pint;;p">
+<treenode node="_execute;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;623;2;820;;;;vpos;;vmixed;;r Definition     _execute($row, $rules, $postdata = NULL, $cycles = 0)  Description      Executes the Validation routines  Parameters:     array     array     mixed     int;;d1,624;;b2,0;;marray;;parray;;pmixed;;pint;;p">
 </treenode>
-<treenode node="_get_error_message;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;831;2;854;;;;vpos;;vstring;;r
-Definition
-    _get_error_message($rule, $field)
-
-Description
-     Get the error message for the rule
-
-Parameters:
-    string $rule - The rule name
-    string $field - The field name;;d1,832;;b2,0;;mstring $rule;;pstring $field;;p">
+<treenode node="_get_error_message;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;831;2;854;;;;vpos;;vstring;;r Definition     _get_error_message($rule, $field)  Description      Get the error message for the rule  Parameters:     string $rule - The rule name     string $field - The field name;;d1,832;;b2,0;;mstring $rule;;pstring $field;;p">
 </treenode>
-<treenode node="_prepare_rules;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;508;2;548;;;;vpos;;varray;;r
-Definition
-    _prepare_rules($rules)
-
-Description
-     Prepare rules
-
-Parameters:
-    array $rules;;d1,509;;b2,0;;marray $rules;;p">
+<treenode node="_prepare_rules;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;508;2;548;;;;vpos;;varray;;r Definition     _prepare_rules($rules)  Description      Prepare rules  Parameters:     array $rules;;d1,509;;b2,0;;marray $rules;;p">
 </treenode>
-<treenode node="_reduce_array;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;560;2;569;;;;vpos;;vmixed;;r
-Definition
-    _reduce_array($array, $keys, $i = 0)
-
-Description
-     Traverse a multidimensional $_POST array index until the data is found
-
-Parameters:
-    array
-    array
-    int;;d1,561;;b2,0;;marray;;parray;;pint;;p">
+<treenode node="_reduce_array;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;560;2;569;;;;vpos;;vmixed;;r Definition     _reduce_array($array, $keys, $i = 0)  Description      Traverse a multidimensional $_POST array index until the data is found  Parameters:     array     array     int;;d1,561;;b2,0;;marray;;parray;;pint;;p">
 </treenode>
-<treenode node="_reset_post_array;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;578;2;610;;;;vpos;;vvoid;;r
-Definition
-    _reset_post_array()
-
-Description
-     Re-populate the _POST array with our finalized and processed data;;d1,579;;b2,0;;m">
+<treenode node="_reset_post_array;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;578;2;610;;;;vpos;;vvoid;;r Definition     _reset_post_array()  Description      Re-populate the _POST array with our finalized and processed data;;d1,579;;b2,0;;m">
 </treenode>
-<treenode node="_translate_fieldname;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;864;2;874;;;;vpos;;vstring;;r
-Definition
-    _translate_fieldname($fieldname)
-
-Description
-     Translate a field name
-
-Parameters:
-    string - the field name;;d1,865;;b2,0;;mstring;;p">
+<treenode node="_translate_fieldname;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f11;864;2;874;;;;vpos;;vstring;;r Definition     _translate_fieldname($fieldname)  Description      Translate a field name  Parameters:     string - the field name;;d1,865;;b2,0;;mstring;;p">
 </treenode>
-<treenode node="alpha;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1287;2;1290;;;;vpos;;vbool;;r
-Definition
-    alpha($str)
-
-Description
-     Alpha
-
-Parameters:
-    string;;d1,1288;;b1,0;;mstring;;p">
+<treenode node="alpha;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1287;2;1290;;;;vpos;;vbool;;r Definition     alpha($str)  Description      Alpha  Parameters:     string;;d1,1288;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="alpha_dash;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1326;2;1329;;;;vpos;;vbool;;r
-Definition
-    alpha_dash($str)
-
-Description
-     Alpha-numeric with underscores and dashes
-
-Parameters:
-    string;;d1,1327;;b1,0;;mstring;;p">
+<treenode node="alpha_dash;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1326;2;1329;;;;vpos;;vbool;;r Definition     alpha_dash($str)  Description      Alpha-numeric with underscores and dashes  Parameters:     string;;d1,1327;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="alpha_numeric;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1300;2;1303;;;;vpos;;vbool;;r
-Definition
-    alpha_numeric($str)
-
-Description
-     Alpha-numeric
-
-Parameters:
-    string;;d1,1301;;b1,0;;mstring;;p">
+<treenode node="alpha_numeric;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1300;2;1303;;;;vpos;;vbool;;r Definition     alpha_numeric($str)  Description      Alpha-numeric  Parameters:     string;;d1,1301;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="alpha_numeric_spaces;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1313;2;1316;;;;vpos;;vbool;;r
-Definition
-    alpha_numeric_spaces($str)
-
-Description
-     Alpha-numeric w/ spaces
-
-Parameters:
-    string;;d1,1314;;b1,0;;mstring;;p">
+<treenode node="alpha_numeric_spaces;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1313;2;1316;;;;vpos;;vbool;;r Definition     alpha_numeric_spaces($str)  Description      Alpha-numeric w/ spaces  Parameters:     string;;d1,1314;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="decimal;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1366;2;1369;;;;vpos;;vbool;;r
-Definition
-    decimal($str)
-
-Description
-     Decimal number
-
-Parameters:
-    string;;d1,1367;;b1,0;;mstring;;p">
+<treenode node="decimal;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1366;2;1369;;;;vpos;;vbool;;r Definition     decimal($str)  Description      Decimal number  Parameters:     string;;d1,1367;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="differs;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1100;2;1103;;;;vpos;;vbool;;r
-Definition
-    differs($str, $field)
-
-Description
-     Differs from another field
-
-Parameters:
-    string
-    string - field;;d1,1101;;b1,0;;mstring;;pstring;;p">
+<treenode node="differs;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1100;2;1103;;;;vpos;;vbool;;r Definition     differs($str, $field)  Description      Differs from another field  Parameters:     string     string - field;;d1,1101;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="encode_php_tags;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1559;2;1562;;;;vpos;;vstring;;r
-Definition
-    encode_php_tags($str)
-
-Description
-     Convert PHP tags to entities
-
-Parameters:
-    string;;d1,1560;;b1,0;;mstring;;p">
+<treenode node="encode_php_tags;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1559;2;1562;;;;vpos;;vstring;;r Definition     encode_php_tags($str)  Description      Convert PHP tags to entities  Parameters:     string;;d1,1560;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="error;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;329;2;347;;;;vpos;;vstring;;r
-Definition
-    error($field, $prefix = &apos;&apos;, $suffix = &apos;&apos;)
-
-Description
-     Get Error Message
-
-Parameters:
-    string $field - Field name
-    string $prefix - HTML start tag
-    string $suffix - HTML end tag;;d1,330;;b1,0;;mstring $field;;pstring $prefix;;pstring $suffix;;p">
+<treenode node="error;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;329;2;347;;;;vpos;;vstring;;r Definition     error($field, $prefix = &apos;&apos;, $suffix = &apos;&apos;)  Description      Get Error Message  Parameters:     string $field - Field name     string $prefix - HTML start tag     string $suffix - HTML end tag;;d1,330;;b1,0;;mstring $field;;pstring $prefix;;pstring $suffix;;p">
 </treenode>
-<treenode node="error_array;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;358;2;361;;;;vpos;;varray;;r
-Definition
-    error_array()
-
-Description
-     Get Array of Error Messages;;d1,359;;b1,0;;m">
+<treenode node="error_array;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;358;2;361;;;;vpos;;varray;;r Definition     error_array()  Description      Get Array of Error Messages;;d1,359;;b1,0;;m">
 </treenode>
-<treenode node="error_string;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;374;2;403;;;;vpos;;vstring;;r
-Definition
-    error_string($prefix = &apos;&apos;, $suffix = &apos;&apos;)
-
-Description
-     Error String
-
-Parameters:
-    string
-    string;;d1,375;;b1,0;;mstring;;pstring;;p">
+<treenode node="error_string;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;374;2;403;;;;vpos;;vstring;;r Definition     error_string($prefix = &apos;&apos;, $suffix = &apos;&apos;)  Description      Error String  Parameters:     string     string;;d1,375;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="exact_length;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1172;2;1180;;;;vpos;;vbool;;r
-Definition
-    exact_length($str, $val)
-
-Description
-     Exact Length
-
-Parameters:
-    string
-    string;;d1,1173;;b1,0;;mstring;;pstring;;p">
+<treenode node="exact_length;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1172;2;1180;;;;vpos;;vbool;;r Definition     exact_length($str, $val)  Description      Exact Length  Parameters:     string     string;;d1,1173;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="greater_than;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1380;2;1383;;;;vpos;;vbool;;r
-Definition
-    greater_than($str, $min)
-
-Description
-     Greater than
-
-Parameters:
-    string
-    int;;d1,1381;;b1,0;;mstring;;pint;;p">
+<treenode node="greater_than;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1380;2;1383;;;;vpos;;vbool;;r Definition     greater_than($str, $min)  Description      Greater than  Parameters:     string     int;;d1,1381;;b1,0;;mstring;;pint;;p">
 </treenode>
-<treenode node="greater_than_equal_to;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1394;2;1397;;;;vpos;;vbool;;r
-Definition
-    greater_than_equal_to($str, $min)
-
-Description
-     Equal to or Greater than
-
-Parameters:
-    string
-    int;;d1,1395;;b1,0;;mstring;;pint;;p">
+<treenode node="greater_than_equal_to;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1394;2;1397;;;;vpos;;vbool;;r Definition     greater_than_equal_to($str, $min)  Description      Equal to or Greater than  Parameters:     string     int;;d1,1395;;b1,0;;mstring;;pint;;p">
 </treenode>
-<treenode node="has_rule;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;907;2;910;;;;vpos;;vbool;;r
-Definition
-    has_rule($field)
-
-Description
-     Checks if the rule is present within the validator
-
-Parameters:
-    string - the field name;;d1,908;;b1,0;;mstring;;p">
+<treenode node="has_rule;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;907;2;910;;;;vpos;;vbool;;r Definition     has_rule($field)  Description      Checks if the rule is present within the validator  Parameters:     string - the field name;;d1,908;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="in_list;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1436;2;1439;;;;vpos;;vbool;;r
-Definition
-    in_list($value, $list)
-
-Description
-     Value should be within an array of values
-
-Parameters:
-    string
-    string;;d1,1437;;b1,0;;mstring;;pstring;;p">
+<treenode node="in_list;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1436;2;1439;;;;vpos;;vbool;;r Definition     in_list($value, $list)  Description      Value should be within an array of values  Parameters:     string     string;;d1,1437;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="integer;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1353;2;1356;;;;vpos;;vbool;;r
-Definition
-    integer($str)
-
-Description
-     Integer
-
-Parameters:
-    string;;d1,1354;;b1,0;;mstring;;p">
+<treenode node="integer;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1353;2;1356;;;;vpos;;vbool;;r Definition     integer($str)  Description      Integer  Parameters:     string;;d1,1354;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="is_natural;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1449;2;1452;;;;vpos;;vbool;;r
-Definition
-    is_natural($str)
-
-Description
-     Is a Natural number  (0,1,2,3, etc.)
-
-Parameters:
-    string;;d1,1450;;b1,0;;mstring;;p">
+<treenode node="is_natural;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1449;2;1452;;;;vpos;;vbool;;r Definition     is_natural($str)  Description      Is a Natural number  (0,1,2,3, etc.)  Parameters:     string;;d1,1450;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="is_natural_no_zero;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1462;2;1465;;;;vpos;;vbool;;r
-Definition
-    is_natural_no_zero($str)
-
-Description
-     Is a Natural number, but not a zero  (1,2,3, etc.)
-
-Parameters:
-    string;;d1,1463;;b1,0;;mstring;;p">
+<treenode node="is_natural_no_zero;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1462;2;1465;;;;vpos;;vbool;;r Definition     is_natural_no_zero($str)  Description      Is a Natural number, but not a zero  (1,2,3, etc.)  Parameters:     string;;d1,1463;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="is_unique;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1117;2;1123;;;;vpos;;vbool;;r
-Definition
-    is_unique($str, $field)
-
-Description
-     Is Unique
-
-Parameters:
-    string $str
-    string $field;;d1,1118;;b1,0;;mstring $str;;pstring $field;;p">
+<treenode node="is_unique;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1117;2;1123;;;;vpos;;vbool;;r Definition     is_unique($str, $field)  Description      Is Unique  Parameters:     string $str     string $field;;d1,1118;;b1,0;;mstring $str;;pstring $field;;p">
 </treenode>
-<treenode node="less_than;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1408;2;1411;;;;vpos;;vbool;;r
-Definition
-    less_than($str, $max)
-
-Description
-     Less than
-
-Parameters:
-    string
-    int;;d1,1409;;b1,0;;mstring;;pint;;p">
+<treenode node="less_than;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1408;2;1411;;;;vpos;;vbool;;r Definition     less_than($str, $max)  Description      Less than  Parameters:     string     int;;d1,1409;;b1,0;;mstring;;pint;;p">
 </treenode>
-<treenode node="less_than_equal_to;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1422;2;1425;;;;vpos;;vbool;;r
-Definition
-    less_than_equal_to($str, $max)
-
-Description
-     Equal to or Less than
-
-Parameters:
-    string
-    int;;d1,1423;;b1,0;;mstring;;pint;;p">
+<treenode node="less_than_equal_to;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1422;2;1425;;;;vpos;;vbool;;r Definition     less_than_equal_to($str, $max)  Description      Equal to or Less than  Parameters:     string     int;;d1,1423;;b1,0;;mstring;;pint;;p">
 </treenode>
-<treenode node="matches;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1084;2;1089;;;;vpos;;vbool;;r
-Definition
-    matches($str, $field)
-
-Description
-     Match one field to another
-
-Parameters:
-    string $str - string to compare against
-    string $field;;d1,1085;;b1,0;;mstring $str;;pstring $field;;p">
+<treenode node="matches;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1084;2;1089;;;;vpos;;vbool;;r Definition     matches($str, $field)  Description      Match one field to another  Parameters:     string $str - string to compare against     string $field;;d1,1085;;b1,0;;mstring $str;;pstring $field;;p">
 </treenode>
-<treenode node="max_length;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1153;2;1161;;;;vpos;;vbool;;r
-Definition
-    max_length($str, $val)
-
-Description
-     Max Length
-
-Parameters:
-    string
-    string;;d1,1154;;b1,0;;mstring;;pstring;;p">
+<treenode node="max_length;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1153;2;1161;;;;vpos;;vbool;;r Definition     max_length($str, $val)  Description      Max Length  Parameters:     string     string;;d1,1154;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="min_length;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1134;2;1142;;;;vpos;;vbool;;r
-Definition
-    min_length($str, $val)
-
-Description
-     Minimum Length
-
-Parameters:
-    string
-    string;;d1,1135;;b1,0;;mstring;;pstring;;p">
+<treenode node="min_length;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1134;2;1142;;;;vpos;;vbool;;r Definition     min_length($str, $val)  Description      Minimum Length  Parameters:     string     string;;d1,1135;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="numeric;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1339;2;1343;;;;vpos;;vbool;;r
-Definition
-    numeric($str)
-
-Description
-     Numeric
-
-Parameters:
-    string;;d1,1340;;b1,0;;mstring;;p">
+<treenode node="numeric;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1339;2;1343;;;;vpos;;vbool;;r Definition     numeric($str)  Description      Numeric  Parameters:     string;;d1,1340;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="prep_for_form;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1495;2;1513;;;;vpos;;vmixed;;r
-Definition
-    prep_for_form($data)
-
-Description
-     Prep data for form
-
-Parameters:
-    mixed $data - Input data;;d1,1496;;b1,0;;mmixed $data;;p">
+<treenode node="prep_for_form;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1495;2;1513;;;;vpos;;vmixed;;r Definition     prep_for_form($data)  Description      Prep data for form  Parameters:     mixed $data - Input data;;d1,1496;;b1,0;;mmixed $data;;p">
 </treenode>
-<treenode node="prep_url;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1523;2;1536;;;;vpos;;vstring;;r
-Definition
-    prep_url($str = &apos;&apos;)
-
-Description
-     Prep URL
-
-Parameters:
-    string;;d1,1524;;b1,0;;mstring;;p">
+<treenode node="prep_url;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1523;2;1536;;;;vpos;;vstring;;r Definition     prep_url($str = &apos;&apos;)  Description      Prep URL  Parameters:     string;;d1,1524;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="regex_match;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1070;2;1073;;;;vpos;;vbool;;r
-Definition
-    regex_match($str, $regex)
-
-Description
-     Performs a Regular Expression match test.
-
-Parameters:
-    string
-    string - regex;;d1,1071;;b1,0;;mstring;;pstring;;p">
+<treenode node="regex_match;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1070;2;1073;;;;vpos;;vbool;;r Definition     regex_match($str, $regex)  Description      Performs a Regular Expression match test.  Parameters:     string     string - regex;;d1,1071;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="required;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1054;2;1059;;;;vpos;;vbool;;r
-Definition
-    required($str)
-
-Description
-     Required
-
-Parameters:
-    string;;d1,1055;;b1,0;;mstring;;p">
+<treenode node="required;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1054;2;1059;;;;vpos;;vbool;;r Definition     required($str)  Description      Required  Parameters:     string;;d1,1055;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="reset_validation;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1574;2;1581;;;;vpos;;vCI_Form_validation;;r
-Definition
-    reset_validation()
-
-Description
-     Reset validation vars;;d1,1575;;b1,0;;m">
+<treenode node="reset_validation;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1574;2;1581;;;;vpos;;vCI_Form_validation;;r Definition     reset_validation()  Description      Reset validation vars;;d1,1575;;b1,0;;m">
 </treenode>
-<treenode node="run;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;415;2;491;;;;vpos;;vbool;;r
-Definition
-    run($group = &apos;&apos;)
-
-Description
-     Run the Validator
-
-Parameters:
-    string $group;;d1,416;;b1,0;;mstring $group;;p">
+<treenode node="run;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;415;2;491;;;;vpos;;vbool;;r Definition     run($group = &apos;&apos;)  Description      Run the Validator  Parameters:     string $group;;d1,416;;b1,0;;mstring $group;;p">
 </treenode>
-<treenode node="set_checkbox;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1040;2;1044;;;;vpos;;vstring;;r
-Definition
-    set_checkbox($field = &apos;&apos;, $value = &apos;&apos;, $default = FALSE)
-
-Description
-     Set Checkbox
-
-Parameters:
-    string
-    string
-    bool;;d1,1041;;b1,0;;mstring;;pstring;;pbool;;p">
+<treenode node="set_checkbox;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1040;2;1044;;;;vpos;;vstring;;r Definition     set_checkbox($field = &apos;&apos;, $value = &apos;&apos;, $default = FALSE)  Description      Set Checkbox  Parameters:     string     string     bool;;d1,1041;;b1,0;;mstring;;pstring;;pbool;;p">
 </treenode>
-<treenode node="set_data;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;266;2;274;;;;vpos;;vCI_Form_validation;;r
-Definition
-    set_data(array $data)
-
-Description
-     By default, form validation uses the $_POST array to validate
-
-Parameters:
-    array $data;;d1,267;;b1,0;;marray $data;;p">
+<treenode node="set_data;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;266;2;274;;;;vpos;;vCI_Form_validation;;r Definition     set_data(array $data)  Description      By default, form validation uses the $_POST array to validate  Parameters:     array $data;;d1,267;;b1,0;;marray $data;;p">
 </treenode>
-<treenode node="set_error_delimiters;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;310;2;315;;;;vpos;;vCI_Form_validation;;r
-Definition
-    set_error_delimiters($prefix = &apos;&lt;p&gt;&apos;, $suffix = &apos;&lt;/p&gt;&apos;)
-
-Description
-     Set The Error Delimiter
-
-Parameters:
-    string
-    string;;d1,311;;b1,0;;mstring;;pstring;;p">
+<treenode node="set_error_delimiters;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;310;2;315;;;;vpos;;vCI_Form_validation;;r Definition     set_error_delimiters($prefix = &apos;&lt;p&gt;&apos;, $suffix = &apos;&lt;/p&gt;&apos;)  Description      Set The Error Delimiter  Parameters:     string     string;;d1,311;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="set_message;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;288;2;297;;;;vpos;;vCI_Form_validation;;r
-Definition
-    set_message($lang, $val = &apos;&apos;)
-
-Description
-     Set Error Message
-
-Parameters:
-    array
-    string;;d1,289;;b1,0;;marray;;pstring;;p">
+<treenode node="set_message;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;288;2;297;;;;vpos;;vCI_Form_validation;;r Definition     set_message($lang, $val = &apos;&apos;)  Description      Set Error Message  Parameters:     array     string;;d1,289;;b1,0;;marray;;pstring;;p">
 </treenode>
-<treenode node="set_radio;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;997;2;1025;;;;vpos;;vstring;;r
-Definition
-    set_radio($field = &apos;&apos;, $value = &apos;&apos;, $default = FALSE)
-
-Description
-     Set Radio
-
-Parameters:
-    string
-    string
-    bool;;d1,998;;b1,0;;mstring;;pstring;;pbool;;p">
+<treenode node="set_radio;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;997;2;1025;;;;vpos;;vstring;;r Definition     set_radio($field = &apos;&apos;, $value = &apos;&apos;, $default = FALSE)  Description      Set Radio  Parameters:     string     string     bool;;d1,998;;b1,0;;mstring;;pstring;;pbool;;p">
 </treenode>
-<treenode node="set_rules;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;166;2;249;;;;vpos;;vCI_Form_validation;;r
-Definition
-    set_rules($field, $label = &apos;&apos;, $rules = array(), $errors = array())
-
-Description
-     Set Rules
-
-Parameters:
-    mixed $field
-    string $label
-    mixed $rules
-    array $errors;;d1,167;;b1,0;;mmixed $field;;pstring $label;;pmixed $rules;;parray $errors;;p">
+<treenode node="set_rules;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;166;2;249;;;;vpos;;vCI_Form_validation;;r Definition     set_rules($field, $label = &apos;&apos;, $rules = array(), $errors = array())  Description      Set Rules  Parameters:     mixed $field     string $label     mixed $rules     array $errors;;d1,167;;b1,0;;mmixed $field;;pstring $label;;pmixed $rules;;parray $errors;;p">
 </treenode>
-<treenode node="set_select;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;954;2;982;;;;vpos;;vstring;;r
-Definition
-    set_select($field = &apos;&apos;, $value = &apos;&apos;, $default = FALSE)
-
-Description
-     Set Select
-
-Parameters:
-    string
-    string
-    bool;;d1,955;;b1,0;;mstring;;pstring;;pbool;;p">
+<treenode node="set_select;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;954;2;982;;;;vpos;;vstring;;r Definition     set_select($field = &apos;&apos;, $value = &apos;&apos;, $default = FALSE)  Description      Set Select  Parameters:     string     string     bool;;d1,955;;b1,0;;mstring;;pstring;;pbool;;p">
 </treenode>
-<treenode node="set_value;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;924;2;939;;;;vpos;;vstring;;r
-Definition
-    set_value($field = &apos;&apos;, $default = &apos;&apos;)
-
-Description
-     Get the value from a form
-
-Parameters:
-    string - the field name
-    string;;d1,925;;b1,0;;mstring;;pstring;;p">
+<treenode node="set_value;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;924;2;939;;;;vpos;;vstring;;r Definition     set_value($field = &apos;&apos;, $default = &apos;&apos;)  Description      Get the value from a form  Parameters:     string - the field name     string;;d1,925;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="strip_image_tags;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1546;2;1549;;;;vpos;;vstring;;r
-Definition
-    strip_image_tags($str)
-
-Description
-     Strip Image Tags
-
-Parameters:
-    string;;d1,1547;;b1,0;;mstring;;p">
+<treenode node="strip_image_tags;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1546;2;1549;;;;vpos;;vstring;;r Definition     strip_image_tags($str)  Description      Strip Image Tags  Parameters:     string;;d1,1547;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="valid_base64;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1478;2;1481;;;;vpos;;vbool;;r
-Definition
-    valid_base64($str)
-
-Description
-     Valid Base64
-
-Parameters:
-    string;;d1,1479;;b1,0;;mstring;;p">
+<treenode node="valid_base64;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1478;2;1481;;;;vpos;;vbool;;r Definition     valid_base64($str)  Description      Valid Base64  Parameters:     string;;d1,1479;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="valid_email;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1229;2;1237;;;;vpos;;vbool;;r
-Definition
-    valid_email($str)
-
-Description
-     Valid Email
-
-Parameters:
-    string;;d1,1230;;b1,0;;mstring;;p">
+<treenode node="valid_email;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1229;2;1237;;;;vpos;;vbool;;r Definition     valid_email($str)  Description      Valid Email  Parameters:     string;;d1,1230;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="valid_emails;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1247;2;1263;;;;vpos;;vbool;;r
-Definition
-    valid_emails($str)
-
-Description
-     Valid Emails
-
-Parameters:
-    string;;d1,1248;;b1,0;;mstring;;p">
+<treenode node="valid_emails;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1247;2;1263;;;;vpos;;vbool;;r Definition     valid_emails($str)  Description      Valid Emails  Parameters:     string;;d1,1248;;b1,0;;mstring;;p">
 </treenode>
-<treenode node="valid_ip;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1274;2;1277;;;;vpos;;vbool;;r
-Definition
-    valid_ip($ip, $which = &apos;&apos;)
-
-Description
-     Validate IP Address
-
-Parameters:
-    string
-    string - &apos;ipv4&apos; or &apos;ipv6&apos; to validate a specific IP format;;d1,1275;;b1,0;;mstring;;pstring;;p">
+<treenode node="valid_ip;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1274;2;1277;;;;vpos;;vbool;;r Definition     valid_ip($ip, $which = &apos;&apos;)  Description      Validate IP Address  Parameters:     string     string - &apos;ipv4&apos; or &apos;ipv6&apos; to validate a specific IP format;;d1,1275;;b1,0;;mstring;;pstring;;p">
 </treenode>
-<treenode node="valid_url;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1190;2;1219;;;;vpos;;vbool;;r
-Definition
-    valid_url($str)
-
-Description
-     Valid URL
-
-Parameters:
-    string $str;;d1,1191;;b1,0;;mstring $str;;p">
+<treenode node="valid_url;PHP:Function Name;C:\wamp\www\system\libraries\Form_validation.php;f8;1190;2;1219;;;;vpos;;vbool;;r Definition     valid_url($str)  Description      Valid URL  Parameters:     string $str;;d1,1191;;b1,0;;mstring $str;;p">
 </treenode>
 </treenode>
 <treenode node="CI_FTP;PHP:Class Name;C:\wamp\www\system\libraries\Ftp.php;f0;48;1;666;;;;vpos;;v;;r Definition     class CI_FTP  Description      FTP Class;;d13,48;;b0,0;;m">
@@ -3838,20 +3382,26 @@ Parameters:
 <treenode node="user_home;PHP:Function Name;C:\wamp\www\application\controllers\dashboard.php;f8;25;2;30;;C:\wamp\www\application\controllers\user.php;f8;17;2;22;;;;vpos;;v;;r;;d1,18;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="User;PHP:Class Name;C:\wamp\www\application\controllers\user_mode.php;f0;3;1;34;;C:\wamp\www\application\controllers\user.php;f0;3;1;103;;;;vpos;;vCI_Controller;;c;;r;;d33,3;;b0,0;;m">
-<treenode node="__construct;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;4;2;7;;C:\wamp\www\application\controllers\user.php;f8;10;2;14;;C:\wamp\www\application\controllers\user.php;f8;10;2;14;;;;vpos;;v;;r;;d30,10;;b1,0;;m">
+<treenode node="User;PHP:Class Name;C:\wamp\www\application\controllers\user_mode.php;f0;3;1;34;;C:\wamp\www\application\controllers\user.php;f0;3;1;123;;;;vpos;;vCI_Controller;;c;;r;;d33,3;;b0,0;;m">
+<treenode node="__construct;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;4;2;7;;C:\wamp\www\application\controllers\user.php;f8;10;2;14;;C:\wamp\www\application\controllers\user.php;f8;10;2;14;;C:\wamp\www\application\controllers\user.php;f8;10;2;14;;C:\wamp\www\application\controllers\user.php;f8;10;2;14;;;;vpos;;v;;r;;d30,10;;b1,0;;m">
 </treenode>
-<treenode node="create_user;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;15;2;20;;C:\wamp\www\application\controllers\user.php;f8;31;2;64;;C:\wamp\www\application\controllers\user.php;f8;31;2;64;;;;vpos;;v;;r;;d1,32;;b1,0;;m">
+<treenode node="create_user;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;15;2;20;;C:\wamp\www\application\controllers\user.php;f8;31;2;72;;C:\wamp\www\application\controllers\user.php;f8;31;2;70;;C:\wamp\www\application\controllers\user.php;f8;31;2;69;;C:\wamp\www\application\controllers\user.php;f8;31;2;69;;;;vpos;;v;;r;;d1,32;;b1,0;;m">
 </treenode>
-<treenode node="login;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;9;2;14;;C:\wamp\www\application\controllers\user.php;f8;25;2;30;;C:\wamp\www\application\controllers\user.php;f8;25;2;30;;;;vpos;;v;;r;;d1,26;;b1,0;;m">
+<treenode node="delete_user;PHP:Function Name;C:\wamp\www\application\controllers\user.php;f8;111;2;121;;;;vpos;;v;;r;;d38,111;;b1,0;;muser_id;;p">
 </treenode>
-<treenode node="update_user;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;27;2;32;;C:\wamp\www\application\controllers\user.php;f8;66;2;101;;;;vpos;;v;;r;;d1,67;;b1,0;;muser_id;;p">
+<treenode node="login;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;9;2;14;;C:\wamp\www\application\controllers\user.php;f8;25;2;30;;C:\wamp\www\application\controllers\user.php;f8;25;2;30;;C:\wamp\www\application\controllers\user.php;f8;25;2;30;;C:\wamp\www\application\controllers\user.php;f8;25;2;30;;;;vpos;;v;;r;;d1,26;;b1,0;;m">
 </treenode>
-<treenode node="user_home;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;21;2;26;;C:\wamp\www\application\controllers\user.php;f8;16;2;23;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
+<treenode node="update_user;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;27;2;32;;C:\wamp\www\application\controllers\user.php;f8;72;2;110;;C:\wamp\www\application\controllers\user.php;f8;71;2;109;;C:\wamp\www\application\controllers\user.php;f8;71;2;109;;;;vpos;;v;;r;;d1,72;;b1,0;;muser_id;;p">
+</treenode>
+<treenode node="user_home;PHP:Function Name;C:\wamp\www\application\controllers\user_mode.php;f8;21;2;26;;C:\wamp\www\application\controllers\user.php;f8;16;2;23;;C:\wamp\www\application\controllers\user.php;f8;16;2;23;;C:\wamp\www\application\controllers\user.php;f8;16;2;23;;;;vpos;;v;;r;;d1,17;;b1,0;;m">
 </treenode>
 </treenode>
-<treenode node="User_model;PHP:Class Name;C:\wamp\www\application\models\user_model.php;f0;1;1;33;;;;vpos;;vCI_Model;;c;;r;;d33,1;;b0,0;;m">
+<treenode node="User_model;PHP:Class Name;C:\wamp\www\application\models\user_model.php;f0;1;1;49;;;;vpos;;vCI_Model;;c;;r;;d33,1;;b0,0;;m">
 <treenode node="__construct;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;2;2;4;;;;vpos;;v;;r;;d23,2;;b0,0;;m">
+</treenode>
+<treenode node="create_code;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;35;2;38;;;;vpos;;v;;r;;d42,35;;b0,0;;muser_code;;puser_id;;p">
+</treenode>
+<treenode node="delete_user;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;45;2;48;;;;vpos;;v;;r;;d31,45;;b0,0;;muser_id;;p">
 </treenode>
 <treenode node="get_all_users;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;6;2;10;;;;vpos;;v;;r;;d25,6;;b0,0;;m">
 </treenode>
@@ -3861,7 +3411,9 @@ Parameters:
 </treenode>
 <treenode node="get_user_types;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;18;2;22;;;;vpos;;v;;r;;d26,18;;b0,0;;m">
 </treenode>
-<treenode node="insert_user;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;30;2;32;;;;vpos;;v;;r;;d28,30;;b0,0;;mdata;;p">
+<treenode node="insert_user;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;30;2;33;;;;vpos;;v;;r;;d28,30;;b0,0;;mdata;;p">
+</treenode>
+<treenode node="update_user;PHP:Function Name;C:\wamp\www\application\models\user_model.php;f1;40;2;43;;;;vpos;;v;;r;;d37,40;;b0,0;;mdata;;puser_id;;p">
 </treenode>
 </treenode>
 <treenode node="Welcome;PHP:Class Name;C:\wamp\www\application\controllers\Welcome.php;f0;3;1;24;;;;vpos;;vCI_Controller;;c;;r;;d36,3;;b0,0;;m">

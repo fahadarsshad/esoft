@@ -50,15 +50,20 @@ class User extends CI_Controller {
 					'user_type'=>$this->input->post('user_type'),
 					'user_role'=>$this->input->post('user_role'),
 					'user_name'=>$this->input->post('user_name'),
-					'user_pass'=>$this->input->post('user_pass')
+					'user_pass'=>$this->input->post('user_pass'),
+					'is_delete'=>0,
+					'is_active'=>1
 					);	
 				
-					if($this->user_model->insert_user($insert_data)){
-						$data['message'] = "User Enter Successfully";
+					if($insert_id = $this->user_model->insert_user($insert_data)){
+						$type_id = (int) $this->input->post('user_type');
+						$role_id = (int) $this->input->post('user_role');
+						$user_code = (int) $type_id.'-'.$role_id.'-'.$insert_id;
 						
-						$this->load->view('templates/header');
-						$this->load->view('user/create-user',$data);
-						$this->load->view('templates/footer');
+						$this->user_model->create_code($user_code ,$insert_id);
+					
+						$data['message'] = "User Enter Successfully";				
+						redirect(base_url().'index.php/user/user_home?ms='.$data['message']);
 					}			
 				}
 			}
@@ -74,31 +79,46 @@ class User extends CI_Controller {
 			
 			
 			$data['user_detail'] = $this->user_model->get_user_by_id($user_id);
+			
+			
 			$data['user_types'] = $this->user_model->get_user_types();
 			$data['user_roles'] = $this->user_model->get_user_roles();		
 			
 			$this->load->view('templates/header');
-			$this->load->view('user/create-user',$data);
+			$this->load->view('user/update-user',$data);
 			$this->load->view('templates/footer');
+			
 			
 			}else{
 				if($_REQUEST){
-					$insert_data = array(
+					$update_data = array(
 					'user_type'=>$this->input->post('user_type'),
 					'user_role'=>$this->input->post('user_role'),
 					'user_name'=>$this->input->post('user_name'),
-					'user_pass'=>$this->input->post('user_pass')
+					'user_pass'=>$this->input->post('user_pass'),
+					'is_delete'=>0,
+					'is_active'=>1
 					);	
 				
-					if($this->user_model->insert_user($insert_data)){
-						$data['message'] = "User Enter Successfully";
+					if($this->user_model->update_user($update_data,$user_id)){
+						$data['message'] = "User Update Successfully";
 						
-						$this->load->view('templates/header');
-						$this->load->view('user/create-user',$data);
-						$this->load->view('templates/footer');
+						redirect(base_url().'index.php/user/user_home?ms='.$data['message']);
 					}			
 				}
 			}
+	}
+	
+	public function delete_user($user_id){
+		
+		if($this->user_model->delete_user($user_id)){
+			
+			$data['message'] = "User Delete Successfully";
+			
+			redirect(base_url().'index.php/user/user_home?ms='.$data['message']);
+		}
+		
+		
 	}
 	
 }

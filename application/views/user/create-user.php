@@ -9,7 +9,7 @@
 	<div class="row message">
 		<?php if(isset($message) && !empty($message)){
 	?>
-	<h5 class="center-align"><?php echo "User Enter Successfully"; ?></h5>
+	<h5 class="center-align"><?php if(isset($message)){ echo $message; } ?></h5>
 	<?php		
 		} ?>
 	</div>
@@ -55,7 +55,8 @@
 				
 				<div class="row">
 					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
-						<input name="user_name" id="user_name" type="text" class="validate">
+						<input name="user_name" id="user_name" type="text" class="validate"
+>
 						<label for="user_name">User Name</label>
 					</div>
 				</div>

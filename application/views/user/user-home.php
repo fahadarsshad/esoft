@@ -6,6 +6,14 @@
 	</div>
 </div>
 
+<div class="row message">
+		<?php if(isset($_GET['ms']) && !empty('$ms')){
+	?>
+	<h5 class="center-align"><?php if(isset($message)){ echo $message;} ?></h5>
+	<?php		
+		} ?>
+	</div>
+
 <table class="centered responsive-table striped">
         <thead>
           <tr>
@@ -27,9 +35,9 @@
             <td><?php echo $user['user_pass']; ?></td>
             <td><?php echo $user['user_type']; ?></td>
             <td>
-            	<a href="<?php echo base_url()?>index.php/user/update_user">Edit</a>
+            	<a href="<?php echo base_url().'index.php/user/update_user/'.$user['user_id'];?>">Edit</a>
             	/
-            	<a href="">Delete</a>
+            	<a href="<?php echo base_url().'index.php/user/delete_user/'.$user['user_id'];?>">Delete</a>
             </td>
           </tr>
           <?php

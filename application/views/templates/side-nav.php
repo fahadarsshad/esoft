@@ -8,7 +8,7 @@
 		    </li>
 		    <li><a href="<?php echo base_url();?>index.php/user/user_home"><i class="material-icons">contacts</i>Users</a></li>
 		    <li><div class="divider"></div></li>
-		    <li><a href="#!"><i class="material-icons">account_balance</i>Account</a></li>
+		    <li><a href="<?php echo base_url();?>index.php/account/account_home"><i class="material-icons">account_balance</i>Account</a></li>
 		    <li><div class="divider"></div></li>
 		    <li><a href="#!"><i class="material-icons">child_friendly</i>Product</a></li>
 		    <li><div class="divider"></div></li>

@@ -33,8 +33,8 @@ class User extends CI_Controller {
 	{ 
 		$this->form_validation->set_rules("user_name","Email","required");
 		$this->form_validation->set_rules("user_pass","Password","required");
-		$this->form_validation->set_rules("user_name","Email","required");
-		$this->form_validation->set_rules("user_pass","Password","required");
+		$this->form_validation->set_rules("user_type","User Type","required");
+		$this->form_validation->set_rules("user_role","User Role","required");
 			if($this->form_validation->run()==FALSE){
 			
 			$data['user_types'] = $this->user_model->get_user_types();
@@ -58,7 +58,7 @@ class User extends CI_Controller {
 					if($insert_id = $this->user_model->insert_user($insert_data)){
 						$type_id = (int) $this->input->post('user_type');
 						$role_id = (int) $this->input->post('user_role');
-						$user_code = (int) $type_id.'-'.$role_id.'-'.$insert_id;
+						$user_code = $type_id = sprintf('%03d',$type_id).'-'.$role_id = sprintf('%03d',$role_id).'-'.$insert_id = sprintf('%03d',$insert_id);
 						
 						$this->user_model->create_code($user_code ,$insert_id);
 					

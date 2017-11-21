@@ -45,7 +45,7 @@ class User_model extends CI_Model{
 	
 	function delete_user($user_id){
 		$this->db->where('user_id', $user_id);
-		return $this->db->update('users',array('is_delete'=>1));
+		return $this->db->update('users',array('is_delete'=>1,'is_active'=>0));
 	}
 }
 ?>

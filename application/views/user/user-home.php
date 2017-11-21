@@ -30,7 +30,7 @@
         	foreach($all_users as $user){
         ?>
           <tr>
-            <td><?php echo $user['user_id']; ?></td>
+            <td><?php echo $user['user_code']; ?></td>
             <td><?php echo $user['user_name']; ?></td>
             <td><?php echo $user['user_pass']; ?></td>
             <td><?php echo $user['user_type']; ?></td>

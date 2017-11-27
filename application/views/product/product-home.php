@@ -17,6 +17,7 @@
 <table class="centered responsive-table striped">
         <thead>
           <tr>
+<<<<<<< HEAD
           	  <th>Image</th>
               <th>Code</th>
               <th>Product Name</th>
@@ -27,6 +28,12 @@
               <th>Size</th>
               <th>Color</th>
               <th>Qty(In Hand)</th>
+=======
+              <th>Code</th>
+              <th>Product Name</th>
+              <th>Type</th>
+              <th>Amount</th>
+>>>>>>> origin/forms
               <th>Action</th>
           </tr>
         </thead>
@@ -36,6 +43,7 @@
         	foreach($all_products as $product){
         ?>
           <tr>
+<<<<<<< HEAD
           	<td><img src="<?php echo base_url(); ?>product_img/<?php echo $product['pimage']; ?>" width="30" height="30" /></td>
             <td><?php echo $product['pcode']; ?></td>
             <td><?php echo $product['pname']; ?></td>
@@ -50,6 +58,16 @@
             	<a href="<?php echo base_url().'index.php/product/update_product/'.$product['pid'];?>">Edit</a>
             	/
             	<a href="<?php echo base_url().'index.php/product/delete_product/'.$product['pid'];?>">Delete</a>
+=======
+            <td><?php echo $product['product_code']; ?></td>
+            <td><?php echo $product['product_name']; ?></td>
+            <td><?php echo $product['shead_name']; ?></td>
+            <td><?php echo $product['product_balance']; ?></td>
+            <td>
+            	<a href="<?php echo base_url().'index.php/product/update_product/'.$product['product_id'];?>">Edit</a>
+            	/
+            	<a href="<?php echo base_url().'index.php/product/delete_product/'.$product['product_id'];?>">Delete</a>
+>>>>>>> origin/forms
             </td>
           </tr>
           <?php

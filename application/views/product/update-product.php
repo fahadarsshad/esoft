@@ -10,8 +10,12 @@
 	?>
 	<h5 class="center-align"><?php if(isset($message)){ echo $message;} ?></h5>
 	<?php		
+<<<<<<< HEAD
 		} 
 		?>
+=======
+		} ?>
+>>>>>>> origin/forms
 	</div>
 <div id="register" class="col s12">
 		<?php
@@ -24,11 +28,19 @@
 				<h3 class="teal-text center-align">Update Product</h3>
 				
 				<div class="row">
+<<<<<<< HEAD
 					<div class="input-field col s4 m3 offset-m5 l3 offset-l5">
+=======
+					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
+>>>>>>> origin/forms
 					    <select name="product_shead" id="product_shead">
 					      <option value="" disabled selected>Choose your option</option>
 					      	<?php if(isset($product_sheads)){
 					      	foreach($product_sheads as $shead){
+<<<<<<< HEAD
+=======
+					      		echo $shead['shead_id'];
+>>>>>>> origin/forms
 							if($shead['shead_id'] == $product_detail['shead_id']){ ?>
 							<option value="<?php echo $shead['shead_id']; ?>" selected ><?php echo $shead['shead_name']; ?></option>	
 							<?php }else{?>
@@ -44,11 +56,16 @@
 				</div>
 				
 				<div class="row">
+<<<<<<< HEAD
 					<div class="input-field col s4 m3 offset-m5 l3 offset-l5">
+=======
+					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
+>>>>>>> origin/forms
 						<input name="product_name" id="product_name" type="text" class="validate" value="<?php if(isset($product_detail)) { echo $product_detail['product_name']; }  ?>">
 						<label for="product_name">product Name</label>
 					</div>
 				</div>
+<<<<<<< HEAD
 				
 				<div class="row">
 					<div class="input-field col s4 m1 offset-m5 l1 offset-l5">
@@ -107,6 +124,8 @@
 						</select>
 					</div>
 				</div>
+=======
+>>>>>>> origin/forms
 
 				<center>
 					<button class="btn waves-effect waves-light teal" type="submit" name="action">Submit</button>

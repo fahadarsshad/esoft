@@ -5,7 +5,11 @@ class Product_model extends CI_Model{
 	}
 	
 	function get_all_products(){
+<<<<<<< HEAD
 		$query = $this->db->query("select products.product_id AS pid,products.product_code AS pcode,products.product_name AS pname,products.product_image AS pimage,product_shead.shead_id AS ptypeid,product_shead.shead_name AS ptypename,products.product_cprice AS cprice,products.product_wprice AS wprice,products.product_rprice AS rprice,product_size.size_id AS psizeid,product_size.size_name AS psizename,product_color.color_id AS pcoloreid,product_color.color_name AS pcolorname,products.product_balance AS pqtybalance from products inner join product_shead on products.product_shead = product_shead.shead_id left join product_size on products.product_size_id = product_size.size_id left join product_color on products.product_color_id = product_color.color_id where products.is_delete=0 and products.is_active=1");
+=======
+		$query = $this->db->query("select * from products inner join product_shead on products.product_shead = product_shead.shead_id where products.is_delete=0 and products.is_active=1");
+>>>>>>> origin/forms
 		
 		return $query->result_array();
 	}
@@ -28,6 +32,7 @@ class Product_model extends CI_Model{
 		return $query->result_array();
 	}
 	
+<<<<<<< HEAD
 	function get_product_size(){
 		$query = $this->db->query("SELECT * FROM product_size WHERE is_delete=0 AND is_active=1");
 		
@@ -40,6 +45,8 @@ class Product_model extends CI_Model{
 		return $query->result_array();
 	}
 	
+=======
+>>>>>>> origin/forms
 	function insert_product($data){
 		$this->db->insert('products',$data);
 		return $this->db->insert_id();
@@ -66,6 +73,7 @@ class Product_model extends CI_Model{
 			return $query->row_array();
 				
 	}
+<<<<<<< HEAD
 	
 	function get_product_by_code($productCode){
 		$query = $this->db->query("SELECT * FROM products WHERE product_code='$productCode' AND is_delete=0 AND is_active=1");
@@ -73,5 +81,7 @@ class Product_model extends CI_Model{
 		return $query->row_array();
 	
 	}
+=======
+>>>>>>> origin/forms
 }
 ?>

@@ -1,6 +1,10 @@
 <div class="row">
 		<h1 class="center-align">
+<<<<<<< HEAD
 			<img class="responsive-img" src="<?php echo base_url();?>images/addaccount-icon.png">
+=======
+			<img class="responsive-img" src="<?php echo base_url();?>images/addproduct-icon.png">
+>>>>>>> origin/forms
 		</h1>
 		<a href="<?php echo base_url(); ?>index.php/product/product_home" class="center-align waves-effect waves-light btn">product Home</a>
 		<?php echo validation_errors(); ?>
@@ -16,6 +20,7 @@
 <div id="register" class="col s12">
 		<?php
 		$attributes = array('class' => 'col s12', 'id' => 'create-form');
+<<<<<<< HEAD
 		echo form_open_multipart(base_url().'index.php/product/create_product', $attributes);
 		 ?>
 			<div class="form-container">
@@ -24,6 +29,17 @@
 					<div class="input-field col s12 m3 offset-m5 l3 offset-l5">
 					    <select name="product_shead" id="product_shead">
 					      <option value="" disabled selected>Type</option>
+=======
+		echo form_open(base_url().'index.php/product/create_product', $attributes);
+		 ?>
+			<div class="form-container">
+				<h3 class="teal-text center-align">Create New Product</h3>
+				<input type="hidden" name="product_mhead" id="product_mhead" value="" />
+				<div class="row">
+					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
+					    <select name="product_shead" id="product_shead">
+					      <option value="" disabled selected>Choose your option</option>
+>>>>>>> origin/forms
 					      <?php if(isset($product_sheads) && !empty($product_sheads)){
 					      	foreach($product_sheads as $shead){
 							?>
@@ -37,12 +53,17 @@
 				</div>
 				
 				<div class="row">
+<<<<<<< HEAD
 					<div class="input-field col s12 m3 offset-m5 l3 offset-l5">
+=======
+					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
+>>>>>>> origin/forms
 						<input name="product_name" id="product_name" type="text" class="validate"
 >
 						<label for="product_name">product Name</label>
 					</div>
 				</div>
+<<<<<<< HEAD
 				
 				<div class="row">
 					<div class="input-field col s4 m1 offset-m5 l1 offset-l5">
@@ -92,6 +113,8 @@
 					</div>
 				</div>
 				
+=======
+>>>>>>> origin/forms
 
 				<center>
 					<button class="btn waves-effect waves-light teal" shead="submit" name="action">Submit</button>

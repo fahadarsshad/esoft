@@ -26,17 +26,25 @@ class Product extends CI_Controller {
 	public function create_product()
 	{ 
 		$this->form_validation->set_rules("product_shead","product Type","required");
+<<<<<<< HEAD
 		$this->form_validation->set_rules("product_name","Product Name","required");
 		$this->form_validation->set_rules("product_cprice","Product Cost","required");
 		$this->form_validation->set_rules("product_wprice","Product Whole Sale","required");
 		$this->form_validation->set_rules("product_rprice","Product Retail","required");
 		
+=======
+		$this->form_validation->set_rules("product_name","Email","required");
+>>>>>>> origin/forms
 			if($this->form_validation->run()==FALSE){
 			
 			$data['product_sheads'] = $this->product_model->get_product_sheads();
 			$data['product_mheads'] = $this->product_model->get_product_mheads();
+<<<<<<< HEAD
 			$data['product_sizes'] = $this->product_model->get_product_size();
 			$data['product_colors'] = $this->product_model->get_product_color();
+=======
+			
+>>>>>>> origin/forms
 			
 			$this->load->view('templates/header');
 			$this->load->view('product/create-product',$data);
@@ -47,11 +55,14 @@ class Product extends CI_Controller {
 					$insert_data = array(
 					'product_shead'=>$this->input->post('product_shead'),
 					'product_name'=>$this->input->post('product_name'),
+<<<<<<< HEAD
 					'product_cprice'=>$this->input->post('product_cprice'),
 					'product_wprice'=>$this->input->post('product_wprice'),
 					'product_rprice'=>$this->input->post('product_rprice'),
 					'product_color_id'=>$this->input->post('product_color'),
 					'product_size_id'=>$this->input->post('product_size'),
+=======
+>>>>>>> origin/forms
 					'is_delete'=>0,
 					'is_active'=>1
 					);	
@@ -66,7 +77,11 @@ class Product extends CI_Controller {
 						$product_code = $mhead_id = sprintf('%03d',$mhead_id).'-'.$shead_id = sprintf('%03d',$shead_id).'-'.$insert_id = sprintf('%03d',$insert_id);	
 						$this->product_model->create_code($product_code ,$mhead_id,$insert_id);
 						
+<<<<<<< HEAD
 						$data['message'] = "product Enter Successfully";			
+=======
+						$data['message'] = "product Enter Successfully";				
+>>>>>>> origin/forms
 						redirect(base_url().'index.php/product/product_home?ms='.$data['message']);
 					}			
 				}
@@ -83,8 +98,12 @@ class Product extends CI_Controller {
 			$data['product_detail'] = $this->product_model->get_product_by_id($product_id);
 			
 			$data['product_sheads'] = $this->product_model->get_product_sheads();
+<<<<<<< HEAD
 			$data['product_mheads'] = $this->product_model->get_product_mheads();				$data['product_sizes'] = $this->product_model->get_product_size();
 			$data['product_colors'] = $this->product_model->get_product_color();
+=======
+			$data['product_mheads'] = $this->product_model->get_product_mheads();		
+>>>>>>> origin/forms
 			
 			$this->load->view('templates/header');
 			$this->load->view('product/update-product',$data);
@@ -96,11 +115,14 @@ class Product extends CI_Controller {
 					$update_data = array(
 					'product_shead'=>$this->input->post('product_shead'),
 					'product_name'=>$this->input->post('product_name'),
+<<<<<<< HEAD
 					'product_cprice'=>$this->input->post('product_cprice'),
 					'product_wprice'=>$this->input->post('product_wprice'),
 					'product_rprice'=>$this->input->post('product_rprice'),
 					'product_color_id'=>$this->input->post('product_color'),
 					'product_size_id'=>$this->input->post('product_size'),
+=======
+>>>>>>> origin/forms
 					'is_delete'=>0,
 					'is_active'=>1
 					);	
@@ -121,6 +143,7 @@ class Product extends CI_Controller {
 			$data['message'] = "product Delete Successfully";
 			
 			redirect(base_url().'index.php/product/product_home?ms='.$data['message']);
+<<<<<<< HEAD
 		}	
 	}
 	
@@ -185,4 +208,11 @@ class Product extends CI_Controller {
 		}
 	} 
 	
+=======
+		}
+		
+		
+	}
+	
+>>>>>>> origin/forms
 }

@@ -32,7 +32,7 @@
           <tr>
             <td><?php echo $account['account_code']; ?></td>
             <td><?php echo $account['account_name']; ?></td>
-            <td><?php echo $account['account_shead']; ?></td>
+            <td><?php echo $account['shead_name']; ?></td>
             <td><?php echo $account['account_balance']; ?></td>
             <td>
             	<a href="<?php echo base_url().'index.php/account/update_account/'.$account['account_id'];?>">Edit</a>

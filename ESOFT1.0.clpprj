@@ -1,62 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\ESOFT1.0.clpprj">
 	<settings><PM_URL><![CDATA[C:/wamp/www/ESOFT/]]></PM_URL><PM_HOME_URL><![CDATA[C:/wamp/www/ESOFT/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="C:\wamp\www\application\controllers\user.php"/>
-		<file name="C:\wamp\www\application\models\user_model.php"/>
-		<file name="C:\wamp\www\application\views\user\create-user.php"/>
-		<file name="C:\wamp\www\application\views\user\update-user.php"/>
-		<file name="C:\wamp\www\application\views\user\user-home.php"/>
-		<file name="C:\wamp\www\application\controllers\account.php"/>
-		<file name="C:\wamp\www\application\models\account_model.php"/>
-		<file name="C:\wamp\www\application\views\account\account-home.php"/>
-		<file name="C:\wamp\www\application\views\account\create-account.php"/>
-		<file name="C:\wamp\www\application\views\account\update-account.php"/>
-		<file name="C:\wamp\www\application\views\dashboard.php"/>
-		<file name="C:\wamp\www\application\views\templates\side-nav.php"/>
+		<file name="C:\wamp\www\application\controllers\product.php"/>
+		<file name="C:\wamp\www\application\models\product_model.php"/>
+		<file name="C:\wamp\www\application\views\product\create_pur_invoice.php"/>
 		<file name="C:\wamp\www\application\views\templates\footer.php"/>
 	</lastopfiles>
 	<todoblock>
-		<todofile name="C:\wamp\www\js\materialize.js">
-			<todo name="TODO: Duplicate calls with swipeable? handle multiple div wrapping." pos="11;2683"/>
-		</todofile>
 		<todofile name="C:\wamp\www\system\core\Loader.php">
-			<todo name="todo Figure out a way to move this to the constructor" pos="5;148"/>
+			<todo name="todo	Figure out a way to move this to the constructor" pos="5;148"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\core\Output.php">
-			<todo name="todo We need to figure out how to permit headers to be cached." pos="5;209"/>
+			<todo name="todo	We need to figure out how to permit headers to be cached." pos="5;209"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\database\DB_forge.php">
-			<todo name="todo Remove deprecated $_after option in 3.1+" pos="5;557"/>
+			<todo name="todo	Remove deprecated $_after option in 3.1+" pos="5;557"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\database\DB_query_builder.php">
 			<todo name="@todo error" pos="4;1998"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\database\drivers\sqlite3\sqlite3_driver.php">
-			<todo name="todo Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
+			<todo name="todo	Implement use of SQLite3::querySingle(), if needed" pos="5;120"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\database\drivers\sqlite3\sqlite3_forge.php">
-			<todo name="todo implement drop_column(), modify_column()" pos="5;135"/>
+			<todo name="todo	implement drop_column(), modify_column()" pos="5;135"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\database\drivers\sqlite\sqlite_forge.php">
-			<todo name="todo implement drop_column(), modify_column()" pos="5;115"/>
+			<todo name="todo	implement drop_column(), modify_column()" pos="5;115"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\helpers\date_helper.php">
-			<todo name="todo Remove in version 3.1+." pos="5;134"/>
+			<todo name="todo	Remove in version 3.1+." pos="5;134"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\helpers\file_helper.php">
-			<todo name="todo Remove in version 3.1+." pos="5;58"/>
+			<todo name="todo	Remove in version 3.1+." pos="5;58"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\helpers\security_helper.php">
-			<todo name="todo Remove in version 3.1+." pos="5;89"/>
+			<todo name="todo	Remove in version 3.1+." pos="5;89"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\helpers\string_helper.php">
-			<todo name="todo Remove in version 3.1+." pos="5;64"/>
+			<todo name="todo	Remove in version 3.1+." pos="5;64"/>
 			<todo name="todo: remove in 3.1+" pos="19;229"/>
 			<todo name="todo: remove in 3.1+" pos="20;232"/>
-			<todo name="todo Remove in version 3.1+." pos="5;292"/>
+			<todo name="todo	Remove in version 3.1+." pos="5;292"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\helpers\url_helper.php">
-			<todo name="todo Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
+			<todo name="todo	Remove old 'dash' and 'underscore' usage in 3.1+." pos="5;472"/>
 		</todofile>
 		<todofile name="C:\wamp\www\system\libraries\Xmlrpc.php">
 			<todo name="@todo - this needs to be made more general purpose" pos="6;1574"/>
@@ -449,18 +437,25 @@
 		<file name="C:\wamp\www\system\.htaccess" crc="1506314638"/>
 		<file name="C:\wamp\www\js\materialize.min.js" crc="1503757428"/>
 		<file name="C:\wamp\www\js\materialize.js" crc="1503757428"/>
-		<file name="C:\wamp\www\js\jquery.js" crc="1504617699"/>
+		<file name="C:\wamp\www\js\jquery.js" crc="1504617700"/>
 		<file name="C:\wamp\www\css\materialize.min.css" crc="1503757428"/>
 		<file name="C:\wamp\www\css\materialize.css" crc="1503757428"/>
-		<file name="C:\wamp\www\css\custom.css" crc="1510940387"/>
-		<file name="C:\wamp\www\application\views\user\user-home.php" crc="1511265708"/>
-		<file name="C:\wamp\www\application\views\user\update-user.php" crc="1511160303"/>
-		<file name="C:\wamp\www\application\views\user\login.php" crc="1511001831"/>
-		<file name="C:\wamp\www\application\views\user\create-user.php" crc="1511160228"/>
-		<file name="C:\wamp\www\application\views\templates\site-heading.php" crc="1511003513"/>
-		<file name="C:\wamp\www\application\views\templates\side-nav.php" crc="1511253603"/>
-		<file name="C:\wamp\www\application\views\templates\header.php" crc="1510947384"/>
-		<file name="C:\wamp\www\application\views\templates\footer.php" crc="1511262082"/>
+		<file name="C:\wamp\www\css\custom.css" crc="1510940388"/>
+		<file name="C:\wamp\www\application\views\user\user-home.php" crc="1511265710"/>
+		<file name="C:\wamp\www\application\views\user\update-user.php" crc="1511160304"/>
+		<file name="C:\wamp\www\application\views\user\login.php" crc="1511001832"/>
+		<file name="C:\wamp\www\application\views\user\create-user.php" crc="1511160230"/>
+		<file name="C:\wamp\www\application\views\templates\site-heading.php" crc="1511003514"/>
+		<file name="C:\wamp\www\application\views\templates\side-nav.php" crc="1511357538"/>
+		<file name="C:\wamp\www\application\views\templates\header.php" crc="1511538478"/>
+		<file name="C:\wamp\www\application\views\templates\footer.php" crc="1511719272"/>
+		<file name="C:\wamp\www\application\views\store\update-store.php" crc="1511357238"/>
+		<file name="C:\wamp\www\application\views\store\store-home.php" crc="1511357224"/>
+		<file name="C:\wamp\www\application\views\store\create-store.php" crc="1511357208"/>
+		<file name="C:\wamp\www\application\views\product\update-product.php" crc="1511529014"/>
+		<file name="C:\wamp\www\application\views\product\product-home.php" crc="1511460050"/>
+		<file name="C:\wamp\www\application\views\product\create_pur_invoice.php" crc="1511716121"/>
+		<file name="C:\wamp\www\application\views\product\create-product.php" crc="1511522550"/>
 		<file name="C:\wamp\www\application\views\errors\html\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\views\errors\html\error_php.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\views\errors\html\error_general.php" crc="1506314638"/>
@@ -474,19 +469,20 @@
 		<file name="C:\wamp\www\application\views\errors\cli\error_db.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\views\errors\cli\error_404.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\views\errors\index.html" crc="1506314638"/>
-		<file name="C:\wamp\www\application\views\account\update-account.php" crc="1511267804"/>
-		<file name="C:\wamp\www\application\views\account\create-account.php" crc="1511261712"/>
-		<file name="C:\wamp\www\application\views\account\account-home.php" crc="1511265284"/>
+		<file name="C:\wamp\www\application\views\account\update-account.php" crc="1511351832"/>
+		<file name="C:\wamp\www\application\views\account\create-account.php" crc="1511261714"/>
+		<file name="C:\wamp\www\application\views\account\account-home.php" crc="1511351622"/>
 		<file name="C:\wamp\www\application\views\welcome_message.php" crc="1506314638"/>
+		<file name="C:\wamp\www\application\views\upload_form.php" crc="1511522376"/>
 		<file name="C:\wamp\www\application\views\index.html" crc="1506314638"/>
-		<file name="C:\wamp\www\application\views\dashboard.php" crc="1511006037"/>
+		<file name="C:\wamp\www\application\views\dashboard.php" crc="1511006038"/>
 		<file name="C:\wamp\www\application\third_party\index.html" crc="1506314638"/>
-		<file name="C:\wamp\www\application\models\user_model.php" crc="1511265181"/>
-		<file name="C:\wamp\www\application\models\store.php" crc="1510915267"/>
-		<file name="C:\wamp\www\application\models\product.php" crc="1510915260"/>
+		<file name="C:\wamp\www\application\models\user_model.php" crc="1511265182"/>
+		<file name="C:\wamp\www\application\models\store_model.php" crc="1511357098"/>
+		<file name="C:\wamp\www\application\models\product_model.php" crc="1511615296"/>
 		<file name="C:\wamp\www\application\models\index.html" crc="1506314638"/>
-		<file name="C:\wamp\www\application\models\dashboad.php" crc="1510913210"/>
-		<file name="C:\wamp\www\application\models\account_model.php" crc="1511268073"/>
+		<file name="C:\wamp\www\application\models\dashboad.php" crc="1510913212"/>
+		<file name="C:\wamp\www\application\models\account_model.php" crc="1511351758"/>
 		<file name="C:\wamp\www\application\logs\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\libraries\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\language\english\index.html" crc="1506314638"/>
@@ -495,14 +491,15 @@
 		<file name="C:\wamp\www\application\helpers\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\core\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\controllers\Welcome.php" crc="1506314638"/>
-		<file name="C:\wamp\www\application\controllers\user.php" crc="1511266016"/>
-		<file name="C:\wamp\www\application\controllers\store.php" crc="1510913279"/>
+		<file name="C:\wamp\www\application\controllers\user.php" crc="1511266018"/>
+		<file name="C:\wamp\www\application\controllers\store.php" crc="1511357028"/>
+		<file name="C:\wamp\www\application\controllers\product.php" crc="1511724339"/>
 		<file name="C:\wamp\www\application\controllers\index.html" crc="1506314638"/>
-		<file name="C:\wamp\www\application\controllers\dashboard.php" crc="1511000807"/>
-		<file name="C:\wamp\www\application\controllers\account.php" crc="1511268008"/>
+		<file name="C:\wamp\www\application\controllers\dashboard.php" crc="1511000808"/>
+		<file name="C:\wamp\www\application\controllers\account.php" crc="1511351676"/>
 		<file name="C:\wamp\www\application\config\user_agents.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\config\smileys.php" crc="1506314638"/>
-		<file name="C:\wamp\www\application\config\routes.php" crc="1510914617"/>
+		<file name="C:\wamp\www\application\config\routes.php" crc="1510914618"/>
 		<file name="C:\wamp\www\application\config\profiler.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\config\mimes.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\config\migration.php" crc="1506314638"/>
@@ -511,14 +508,18 @@
 		<file name="C:\wamp\www\application\config\hooks.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\config\foreign_chars.php" crc="1506314638"/>
 		<file name="C:\wamp\www\application\config\doctypes.php" crc="1506314638"/>
-		<file name="C:\wamp\www\application\config\database.php" crc="1510914408"/>
+		<file name="C:\wamp\www\application\config\database.php" crc="1510914410"/>
 		<file name="C:\wamp\www\application\config\constants.php" crc="1506314638"/>
-		<file name="C:\wamp\www\application\config\config.php" crc="1511108416"/>
-		<file name="C:\wamp\www\application\config\autoload.php" crc="1511114883"/>
+		<file name="C:\wamp\www\application\config\config.php" crc="1511108418"/>
+		<file name="C:\wamp\www\application\config\autoload.php" crc="1511114884"/>
 		<file name="C:\wamp\www\application\cache\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\index.html" crc="1506314638"/>
 		<file name="C:\wamp\www\application\.htaccess" crc="1506314638"/>
 		<file name="C:\wamp\www\license.txt" crc="1506314638"/>
 		<file name="C:\wamp\www\index.php" crc="1506314638"/>
+		<file name="C:\wamp\www\esoft25-11-2017.sql" crc="1511621094"/>
+		<file name="C:\wamp\www\esoft24-11-2017.sql" crc="1511526420"/>
+		<file name="C:\wamp\www\esoft23-11-17.sql" crc="1511448742"/>
+		<file name="C:\wamp\www\22-nov-2017.sql" crc="1511360194"/>
 	</filescache>
 </project>

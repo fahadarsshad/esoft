@@ -10,9 +10,9 @@
 		    <li><div class="divider"></div></li>
 		    <li><a href="<?php echo base_url();?>index.php/account/account_home"><i class="material-icons">account_balance</i>Account</a></li>
 		    <li><div class="divider"></div></li>
-		    <li><a href="#!"><i class="material-icons">child_friendly</i>Product</a></li>
+		    <li><a href="<?php echo base_url();?>index.php/product/product_home"><i class="material-icons">child_friendly</i>Product</a></li>
 		    <li><div class="divider"></div></li>
-		    <li><a href="#!"><i class="material-icons">local_convenience_store</i>Store</a></li>
+		    <li><a href="<?php echo base_url();?>index.php/store/store_home"><i class="material-icons">local_convenience_store</i>Store</a></li>
 		    <li><div class="divider"></div></li>
 		    <li><a href="#!"><i class="material-icons">assignment</i>Reports</a></li>
 		</ul>

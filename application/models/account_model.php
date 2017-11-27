@@ -5,17 +5,15 @@ class Account_model extends CI_Model{
 	}
 	
 	function get_all_accounts(){
-		$query = $this->db->query("SELECT * FROM accounts WHERE is_delete=0 AND is_active=1");
+		$query = $this->db->query("select * from accounts inner join account_shead on accounts.account_shead = account_shead.shead_id where accounts.is_delete=0 and accounts.is_active=1");
 		
 		return $query->result_array();
 	}
 	
 	function get_account_by_id($account_id){
-		$account_id = (int) $account_id;
-		var_dump($account_id);
 		$query = $this->db->query("SELECT * FROM accounts INNER JOIN account_shead ON  account_shead.shead_id = accounts.account_shead INNER JOIN account_mhead ON  account_mhead.mhead_id = accounts.account_shead where accounts.account_id='$account_id' AND accounts.is_delete=0 AND accounts.is_active=1");
 		
-		var_dump($query->row_array());
+		return $query->row_array();
 	}
 	
 	function get_account_sheads(){

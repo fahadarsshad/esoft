@@ -72,8 +72,6 @@ class Account extends CI_Controller {
 			
 			$data['account_detail'] = $this->account_model->get_account_by_id($account_id);
 			
-			var_dump($data['account_detail']);die();
-			
 			$data['account_sheads'] = $this->account_model->get_account_sheads();
 			$data['account_mheads'] = $this->account_model->get_account_mheads();		
 			

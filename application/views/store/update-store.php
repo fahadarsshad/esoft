@@ -1,8 +1,8 @@
 <div class="row">
 		<h1 class="center-align">
-			<img class="responsive-img" src="<?php echo base_url();?>images/addaccount-icon.png">
+			<img class="responsive-img" src="<?php echo base_url();?>images/addstore-icon.png">
 		</h1>
-		<a href="<?php echo base_url(); ?>index.php/account/account_home" class="center-align waves-effect waves-light btn">account Home</a>
+		<a href="<?php echo base_url(); ?>index.php/store/store_home" class="center-align waves-effect waves-light btn">store Home</a>
 		<?php echo validation_errors(); ?>
 	</div>
 	<div class="row message">
@@ -15,21 +15,21 @@
 <div id="register" class="col s12">
 		<?php
 		$attributes = array('class' => 'col s12', 'id' => 'create-form');
-		if(isset($account_detail) && !empty($account_detail)){
-		echo form_open(base_url().'index.php/account/update_account/'.$account_detail['account_id'], $attributes);	
+		if(isset($store_detail) && !empty($store_detail)){
+		echo form_open(base_url().'index.php/store/update_store/'.$store_detail['store_id'], $attributes);	
 		}
 		 ?>
 			<div class="form-container">
-				<h3 class="teal-text center-align">Update account</h3>
+				<h3 class="teal-text center-align">Update Store</h3>
 				
 				<div class="row">
 					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
-					    <select name="account_shead" id="account_shead">
+					    <select name="store_shead" id="store_shead">
 					      <option value="" disabled selected>Choose your option</option>
-					      	<?php if(isset($account_sheads)){
-					      	foreach($account_sheads as $shead){
+					      	<?php if(isset($store_sheads)){
+					      	foreach($store_sheads as $shead){
 					      		echo $shead['shead_id'];
-							if($shead['shead_id'] == $account_detail['shead_id']){ ?>
+							if($shead['shead_id'] == $store_detail['shead_id']){ ?>
 							<option value="<?php echo $shead['shead_id']; ?>" selected ><?php echo $shead['shead_name']; ?></option>	
 							<?php }else{?>
 								<option value="<?php echo $shead['shead_id']; ?>"><?php echo $shead['shead_name']; ?></option>
@@ -39,14 +39,14 @@
 							}
 					      } ?>
 					    </select>
-					    <label>account Type</label>
+					    <label>store Type</label>
 					</div>
 				</div>
 				
 				<div class="row">
 					<div class="input-field col s12 m4 offset-m4 l4 offset-l4">
-						<input name="account_name" id="account_name" type="text" class="validate" value="<?php if(isset($account_detail)) { echo $account_detail['account_name']; }  ?>">
-						<label for="account_name">account Name</label>
+						<input name="store_name" id="store_name" type="text" class="validate" value="<?php if(isset($store_detail)) { echo $store_detail['store_name']; }  ?>">
+						<label for="store_name">store Name</label>
 					</div>
 				</div>
 
